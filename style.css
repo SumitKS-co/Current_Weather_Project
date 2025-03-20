@@ -1,0 +1,144 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: "Poppins", sans-serif;
+    box-sizing: border-box; 
+}
+body{
+    background-image: url("802392.jpg");
+    background-size:cover ;
+    background-position:center ;
+    height: 100vh;
+    width: 100%;
+    background-color: grey;
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+    backdrop-filter:blur(5px) ;
+    
+}
+.box{
+    background-color: rgb(255,255,255,0.3);
+    height: 470px;
+    width: 300px;
+    border: 2px solid black;
+    border-radius: 20px;
+    border: none;
+    padding: 10px;
+}
+header{
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 10px;
+
+}
+header input{
+    padding: 10px;
+    border-radius: 90px;
+    font-size: 15px;
+    outline: none;
+    border: none;
+}
+
+header button{
+    border-radius: 50%;
+    border: none;
+}
+
+header button i{
+    text-align: center;
+    padding: 12px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 50%;
+    cursor: pointer;
+    border: none;
+}
+
+.weather{
+    margin-top: 35px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    font-size: 20px;
+}
+
+.loc{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 10px;
+}
+
+.season{
+    margin-top: 30px;
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    font-size: x-large;
+}
+
+.wind-hum{
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    font-size: 18px;
+}
+
+.hum{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.wind{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.forcast-cont{
+    margin-top: 20px;
+    display: flex;
+    overflow-x: auto;
+    overflow-y: hidden;
+    gap: 15px;
+    padding: 10px;
+    scrollbar-width:50%;
+}
+
+.forcast-item{
+    min-width: 70px;
+    background: rgba(255, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+    border-radius: 12px;
+}
+
+.city-msg{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin-top: 25%;
+}
+.city-msg img{
+    height: 180px;
+    width: fit-content;
+}
+
+.not-found-msg{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin-top: 25%;
+}
+
+.not-found-msg img{
+    height: 180px;
+    width: fit-content;
+}
